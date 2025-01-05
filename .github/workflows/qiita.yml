@@ -6,10 +6,7 @@ on:
 
 jobs:
   qiita:
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        ruby-version: ['3.1']
+    runs-on: ubuntu-20.04
     steps:
       - name: "Publish to Qiita"
         uses: noraworld/github-to-qiita@v1.0.0
