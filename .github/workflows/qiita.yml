@@ -7,11 +7,13 @@ on:
 jobs:
   qiita:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        ruby-version: ['3.1']
     steps:
       - name: "Publish to Qiita"
         uses: noraworld/github-to-qiita@v1.0.0
-        with:
-          ruby-version: '3.1.1'
+    with:
           dir: "articles"
           qiita_access_token: ${{ secrets.QIITA_ACCESS_TOKEN }}
           mapping_filepath: "mapping.txt"
