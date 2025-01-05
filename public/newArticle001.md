@@ -4,7 +4,7 @@ tags:
   - Qiita
   - GitHub
 private: false
-updated_at: '2025-01-05T16:44:53+09:00'
+updated_at: '2025-01-05T17:22:16+09:00'
 id: 9155d6d18fc56d0b97c9
 organization_url_name: null
 slide: false
@@ -174,5 +174,8 @@ $ npx qiita publish newArticle001.md
 ```
 
 * 時間があるときに再度トライしようと思います。
+* また、VSCodeでスクリーンショットを貼り付けるだけでは、  
+Qiita記事に反映されず。ここも調べたいと思います。  
+
 
 
