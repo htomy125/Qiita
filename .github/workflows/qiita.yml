@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: "Publish to Qiita"
         uses: noraworld/github-to-qiita@v1.0.0
-    with:
+        with:
           dir: "articles"
           qiita_access_token: ${{ secrets.QIITA_ACCESS_TOKEN }}
           mapping_filepath: "mapping.txt"
