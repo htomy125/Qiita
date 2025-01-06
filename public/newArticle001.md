@@ -4,7 +4,7 @@ tags:
   - Qiita
   - GitHub
 private: false
-updated_at: '2025-01-05T17:22:16+09:00'
+updated_at: '2025-01-05T19:54:38+09:00'
 id: 9155d6d18fc56d0b97c9
 organization_url_name: null
 slide: false
@@ -56,7 +56,7 @@ Hi htomy125! You've successfully authenticated, but GitHub does not provide shel
 * リポジトリ(ここでは Qiita というリポジトリ)の画面から、**Code** をクリック、  
 SSHタブを選択して表示される文字列をコピーします
 
-![ssh接続での接続先の取得](image.png)
+![ssh接続での接続先の取得](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3977945/5c4eba75-d288-b124-ae9b-7ee737dff439.png)
 
 * ローカルリポジトリを作成したディレクトリで以下を実行し、リポジトリ名のディレクトリが作成されていることを確認します
 
@@ -105,7 +105,7 @@ $ npx qiita init
   - 画面左のメニューから **Secrets and variables** を選択
   - **Actions** をクリック(画像では最左下)
 
-![トークンの設定](image-1.png)
+![トークンの設定](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3977945/e731c2e0-4609-a179-a753-0a03e7df1404.png)
 
 
 * トークンの設定箇所の続き...
