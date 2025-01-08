@@ -4,7 +4,7 @@ tags:
   - Qiita
   - GitHub
 private: false
-updated_at: '2025-01-05T19:54:38+09:00'
+updated_at: '2025-01-07T08:11:27+09:00'
 id: 9155d6d18fc56d0b97c9
 organization_url_name: null
 slide: false
@@ -213,6 +213,6 @@ $ git push origin
 * 裏では、GitHub Actions が動作するので結果を確認します。  
 → 成功していました！
 
-![githubaction_publish](image-2.png)
+![image-2.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3977945/01cb5c6b-51ba-f329-8878-6603815119b6.png)
 
 * Qiitaの方にも無事記事が反映され良かったです。
